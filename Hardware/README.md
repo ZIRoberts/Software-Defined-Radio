@@ -3,7 +3,7 @@ Here exists all PCB designs and electrical schematics for the Software Defined R
 
 # Overview
 
-There is a single board in this sytem and it is broken up into 11 sections and A system diagram represented by their own respective schematic sheet. All sheets, artwork, and 3D models are displayed within this read.me file. 
+There is a single board in this sytem and it is broken up into 11 sections and A system diagram represented by their own respective schematic sheet. All sheets, artwork, and 3D models are displayed jere. Each sheet is paired with a brief explantion of it's function and design decisions.
 
 # Top View
 ![SDR_PCB_TOPVIEW](https://github.com/user-attachments/assets/45ce893a-79f1-4a8d-bc1a-d4067f322ca8)
@@ -15,9 +15,11 @@ There is a single board in this sytem and it is broken up into 11 sections and A
 ![SCHD_SYSDIAGRAM](https://github.com/user-attachments/assets/809b9ce8-3c4f-49c9-9a16-8345289737f5)
 
 # Microcontroller Conncetions (SAME70)
+The brains of the board is a Microchip SAME70 utlizaing ARM Cortex-M7 core. This IC was selected primarily because the available number of pins, native USB 2.0, and the Direct Memory Acess controller that can directly transfer the recieved signal from the input to the output buffer of the USB 2.0.
 ![SCHD_MCU](https://github.com/user-attachments/assets/1f876db1-ee9f-4488-8ea0-78eb6cae11c3)
 
 # FPGA Connections (Lattice Machx02)
+ The Lattice MACHX02 FPGA is not necessarily needed for the design but was added for future additions and the option to experiment with digital signal processing in the future. 
 ![SCHD_CPLD](https://github.com/user-attachments/assets/abe879bc-96c3-4bec-82a9-3dbc410a7d3e)
 
 # Analog to Digital Converter 
