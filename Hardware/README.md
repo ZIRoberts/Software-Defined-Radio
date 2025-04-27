@@ -66,7 +66,7 @@ The Antenna I/O sheet controls the Transmitting/Receiving state of the SDR and h
 
 The SI5351A clock generator is used to provide a stable and consistent clock signal to the FPGA, ADC, DAC, and PLL. It was chosen based on it's frequency range, and ease of use.
 
-![SCHD_PLL](https://github.com/user-attachments/assets/1ff74f63-613c-4c41-b7e4-afda4df0f3d4)
+![SCHD_CLOCK_GEN](https://github.com/user-attachments/assets/c5ae32bb-6810-4f8a-86c5-c307f9c25c72)
 
 # Local_Oscillator
 
